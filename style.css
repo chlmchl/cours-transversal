@@ -1,0 +1,45 @@
+:root {
+    /*variables de couleur*/
+    --blue: #6495ed;
+    /*variables de contour*/
+    --border: 3px solid red;
+}
+
+body {
+    background-color: red;
+}
+
+header {
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0px 0px 50px 0px;
+}
+
+button {
+    border: var(--border);
+}
+
+.mainButton {
+    background-color: var(--blue);
+    color: white;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.mainButton:hover {
+    background-color: blueviolet;
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: white;
+}
+
+img {
+    width: 150px;
+}
